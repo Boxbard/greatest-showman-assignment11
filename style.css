@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 1.3rem;
   color: var(--text-color);
@@ -35,9 +35,6 @@ h2 {
   text-align: center;
 }
 
-.header__link {
-  text-decoration: none;
-}
 
 a:hover {
   text-decoration: underline;
@@ -47,9 +44,7 @@ a:hover {
   background-color: var(--primary-color);
   padding: 48px 0;
   border-bottom: var(--secondary-color) 6px solid;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
 }
 
 
@@ -65,21 +60,22 @@ nav {
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
-}
+
 
 .header__link {
+  text-decoration: none;
+  font-family: 'Cinzel';
   font-size: 1.5rem;
   color: var(--secondary-color);
   text-transform: uppercase;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+  float: left;
+  margin-left: 60px;
 }
 
-nav>a:not(:first-of-type) {
-  margin-left: 24px;
+
+nav {
+  float: right;
+  margin-right: 100px;
 }
 
 nav>a.logo {
