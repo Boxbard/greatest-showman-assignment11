@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header class="header">
+    <nav>
+      <img class=logo src="images/The_Greatest_Showman_logo.png" alt="the greatest showman  movie logo">
+      <a class="header__link" href="index.html">Home</a>
+      <a class="header__link" href="about.html">About</a>
+      <a class="header__link" href="#">Videos</a>
+      <a class="header__link" href="#">Gallery</a>
+    </nav>
+  </header>
+  <main>
+    <article class="main_container">
+      <h1 class="main_heading" >Video Gallery</h1>
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modiad id nobis aspernatur deleniti! Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque.</p>
+    </article>
+    <article class="video_container">
+      <h3 class="sub_heading">Trailers</h3>
+      <div>
+      <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/AXCTMGYUg9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/KTNtpYQPlhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <h3 class="sub_heading">Lyric Videos</h3>
+      <div>
+      <iframe class="video3" width="560" height="315" src="https://www.youtube.com/embed/yO28Z5_Eyls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video4" width="560" height="315" src="https://www.youtube.com/embed/GLK-mr8JmNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video5" width="560" height="315" src="https://www.youtube.com/embed/Rj4Yu9Utdw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </article> 
+  </main>
+  <footer class="footer">
+    &copy; <span id="year"></span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>

@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Head/meta data -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,43 +10,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
-<!-- META -->
-
 <body>
-
-  <!-- Header Class -->
   <header class="header">
     <nav>
       <img class=logo src="images/The_Greatest_Showman_logo.png" alt="the greatest showman  movie logo">
-      <a class="header__link" href="#">Home</a>
-      <a class="header__link" href="#">About</a>
-      <a class="header__link" href="#">Videos</a>
+      <a class="header__link" href="index.html">Home</a>
+      <a class="header__link" href="about.html">About</a>
+      <a class="header__link" href="videos.html">Videos</a>
       <a class="header__link" href="#">Gallery</a>
     </nav>
   </header>
-
-<!-- MAIN -->
   <main>
-    <!-- Call to Action button -->
     <section class="hero">
       <button>Watch Trailer</button>
     </section>
-
-    <!-- Body/article text -->
     <article>
       <h1>Main Heading</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi <a href="#">ad id nobis aspernatur deleniti!</a> Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
-      <img src="https://picsum.photos/500/500" alt="random image">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi <a href="#">voluptatibus</a> cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
-      <h2>Subheading</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. <a href="#">Corrupti</a> vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti!</a> Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi  cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
     </article>
+    <div class="link_card">
+      <img class="link_card_img" src="images/thegrestestshowman.jpeg" alt="image of hugh jackman as pt barnun in the greatest showman">
+      <h3 class="link_card_header">P.T. Barnum</h3>
+    </div>
+    <div class="link_card">
+      <img class="link_card_img" src="images/the-greatest-showman-hugh-jackman-vogue01.webp" alt="zendaya and zac efron in the greatest showman">
+      <h3 class="link_card_header">Magical Musical</h3>
+    </div>
   </main>
 
-  <!-- Footer Class -->
   <footer class="footer">
-    &copy; company name <span id="year"></span>
+    &copy;<span id="year"></span>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear()
