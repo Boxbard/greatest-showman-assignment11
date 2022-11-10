@@ -83,8 +83,7 @@ nav>a.logo {
   text-transform: uppercase;
 }
 
-main>section,
-main>article {
+main>section, {
   margin-bottom: 50px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
@@ -111,8 +110,57 @@ section.hero>button {
   cursor: pointer;
 }
 
-main article {
-  padding: 48px 96px;
+main h1, h4{
+  font-family: 'Cinzel';
+}
+
+main p {
+  font-family: 'Lato';
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 55%;
+}
+
+.left p {
+  padding-left: 30px;
+}
+
+.right {
+  width: 45%;
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; 
+}
+
+.one {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.one h4, .two h4 {
+  margin-top: -5px;
+  padding: 5px;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.two {
+  position: absolute;
+  top: 275px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 main p {
@@ -121,13 +169,6 @@ main p {
   ;
 }
 
-main>article img {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-right: 24px;
-  margin-bottom: 6px;
-}
 
 .footer {
   margin-top: auto;
