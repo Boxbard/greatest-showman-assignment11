@@ -14,20 +14,11 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(images/stone_texture.png);
+    background-image: url(images/bg-gradient.png);
   }
-  video.container{
-    display: grid;
-    grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px;
-    gap: 10px;
-  }
-  body {
-    display: grid;
-    grid-template-areas: 
-    "nav nav"
-    "video video"
-    "footer footer";
+
+  h3 {
+    color: var(--primary-color);
   }
 
   .footer {
