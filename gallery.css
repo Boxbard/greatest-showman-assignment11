@@ -72,7 +72,16 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* background-image: url(images/stone_texture_blue_color_burn.jpg); */
+    background-image: url(images/stone_texture_blue_color_burn.jpg);
+    background-size: 50%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .container {
+    padding: 40px 12%;
   }
 
   .image-gallery {
@@ -80,8 +89,14 @@
     flex-wrap: wrap;
     gap: 10px;
   }
+
+  .image-gallery::after {
+    content: "";
+    flex-grow: 99;
+  }
   
   .image-gallery > li {
+    flex-grow: 1 1 auto;
     height: 300px;
     cursor: pointer;
     position: relative;
