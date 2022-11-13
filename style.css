@@ -4,6 +4,7 @@
   --text-color-lighter: #BD924F;
   --text-color: #042d2f;
   --secondary-color: #BD924F;
+  --hover-color: #CEAF7D;
   --white: #FFFFFF;
 }
 
@@ -18,15 +19,12 @@ body {
   background-image: url(images/stone_texture.png);
 }
 
-
 .logo {
   width: 15rem;
   position: absolute;
   top: 10px;
   left: 10%;
 }
-
-
 
 a:hover {
   color: var(--hover-color);
@@ -134,8 +132,6 @@ main p {
 .link_card_header {
   padding: 0 10px;
 }
-
-
 
 main h1,
 h4 {
