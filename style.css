@@ -27,10 +27,13 @@ body {
 }
 
 
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
 a:hover {
-  color: var(--hover-color);
-  text-decoration: underline;
+  color: var(--white);
   transition: color 0.2s;
 }
 
@@ -164,6 +167,8 @@ h4 {
   align-items: center;
   padding-top: 50px;
 }
+
+
 
 .one {
   position: relative;
