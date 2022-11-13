@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="videos.css">
+  <!-- Added fontawesome elements for icons -->
+  <script src="https://kit.fontawesome.com/aff8c4ac3c.js" crossorigin="anonymous"></script>
+  <link href="/images/icons/fontawesome.css" rel="stylesheet">
+  <link href="/images/icons/brands.css" rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <nav>
@@ -25,23 +31,39 @@
     <article class="main_container">
       <h1 class="main_heading">Videos</h1>
       <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modiad id nobis aspernatur deleniti! Dolorem totam quam fugiat.</p>
+      <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque,
+        odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita
+        accusantium distinctio voluptas maiores modiad id nobis aspernatur deleniti! Dolorem totam quam fugiat.</p>
     </article>
     <article class="container">
       <h3 class="sub_heading">Trailer #1</h3>
       <div class="videowrapper">
-      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/AXCTMGYUg9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/AXCTMGYUg9A"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
       <h3 class="sub_heading">Trailer #2</h3>
       <div class="videowrapper">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KTNtpYQPlhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    </article> 
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KTNtpYQPlhE"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </article>
   </main>
   <footer class="footer">
     &copy; <span id="year"></span>
+    <!--Social Media icons -->
+    <span class="social-media">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </span>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear()
   </script>
 </body>
+
 </html>

@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="">
-
+  <!-- Added fontawesome elements for icons -->
+  <script src="https://kit.fontawesome.com/aff8c4ac3c.js" crossorigin="anonymous"></script>
+  <link href="/images/icons/fontawesome.css" rel="stylesheet">
+  <link href="/images/icons/brands.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -39,25 +42,28 @@
       <div class="column right">
         <div class="one">
           <img src="images\thegrestestshowman.jpeg" alt="hugh jackman" width="200">
-          <h4><a class="subheader_link" herf="#" target="_blank">Subheader</a></h4>
+          <h4><a class="subheader_link" href="gallery.html" target="_blank">Gallery</a></h4>
         </div>
         <div class="two">
           <img src="images\the-greatest-showman-hugh-jackman-vogue01.webp" alt="greatest showman stunt" width="200">
           <h4><a class="subheader_link" herf="#" target="_blank">Subheader</a></h4>
-        </div>
       </div>
     </div>
     <article>
   </main>
   <footer class="footer">
     <div>
+      <img class=footer_logo src="images/The_Greatest_Showman_logo.png" alt="the greatest showman  movie logo">
       &copy;<span id="year"></span>
-    </div>
-    <div class="socials">
-      <a href="https://www.facebook.com/" target="_blank" src="images/facebook_icon.png"></a>
-      <a href="https://twitter.com/?logout=1668285985687" target="_blank" src="images/twitter_icon.png"></a>
-      <a href="https://www.instagram.com/" target="_blank" src="images/instagram_icon.png"></a>
-    </div>
+      <span class="social-media">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </span>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear()
+      </script>
+    </div>    
   </footer>
 </body>
 </html>
