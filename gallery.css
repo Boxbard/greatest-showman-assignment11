@@ -124,12 +124,12 @@ ul {
   padding: 24px 0;
   color: var(--secondary-color);
   border-top: var(--secondary-color) 6px solid;
+  font-family: 'Cinzel';
 }
 
 .social-media {  
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 7em;
+  display: flex;  
   gap: 20px;
-  font-size: 36px;
+  margin-top: 1em;
+  justify-content: center;  
 }

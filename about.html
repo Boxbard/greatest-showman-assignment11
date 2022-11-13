@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="about.css">
+  <!-- Added fontawesome elements for icons -->
+  <script src="https://kit.fontawesome.com/aff8c4ac3c.js" crossorigin="anonymous"></script>
+  <link href="/images/icons/fontawesome.css" rel="stylesheet">
+  <link href="/images/icons/brands.css" rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <nav class="nav">
@@ -30,7 +36,7 @@
           <img src="images/the-greatest-showman_10.png" alt="the greatest showman" width="200">
           <h4><a class="subheader_link" href="videos.html" target="_blank">Watch Trailer</a></h4>
 
-       </div>
+        </div>
         <div class="two">
           <img src="images/greatestshowman.jpeg" alt="the barnum family" width="200">
           <h4><a class="subheader_link" href="gallery.html" target="_blank">Gallery</a></h4>
@@ -38,17 +44,29 @@
       </div>
       <div class="column right">
         <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing beatae debitis sequi minus expedita accusantium distinctio
+          voluptas maiores modi ad id nobis aspernatur deleniti! Corrupti vitae tempora repellendus numquam! Veniam
+          quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
         <h1>P.T. Barnum</h1>
-        <p>Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. </p>
-      </div> 
+        <p>Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur
+          necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit
+          facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis,
+          iure reprehenderit accusantium ipsum dolorum aperiam neque. </p>
+      </div>
     </div>
     <article>
   </main>
   <footer class="footer">
     &copy;<span id="year"></span>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear()
-  </script>
+    <!--Social Media icons -->
+    <span class="social-media">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </span>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear()
+    </script>
 </body>
+
 </html>
