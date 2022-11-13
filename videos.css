@@ -7,18 +7,77 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', 'Lato';
     margin: 0;
     font-size: 1.3rem;
-    color: var(--text-color);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(images/bg-gradient.png);
+    background-image: url(images/stone_texture_blue_color_burn.jpg);
   }
 
-  h3 {
-    color: var(--primary-color);
+  .logo {
+    width: 15rem;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+  }
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Cinzel';
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .header {
+    background-color: var(--primary-color);
+    padding: 48px 0;
+    border-bottom: var(--secondary-color) 6px solid;
+   
+  }
+  
+  main>article,
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .header__link {
+    text-decoration: none;
+    font-family: 'Cinzel';
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    float: left;
+    margin-left: 60px;
+  }
+  nav {
+    float: right;
+    margin-right: 100px;
+  }
+  nav>a.logo {
+    margin-right: auto;
+    text-transform: uppercase;
+  }
+  
+  .sub_heading {
+    font-family: 'Cinzel';
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  main>section,
+  main>article {
+    margin-bottom: 50px;
+  }
+  
+  .main_p {
+    font-family: 'Lato';
+    font-size: 1.5rem;
   }
 
   .footer {
