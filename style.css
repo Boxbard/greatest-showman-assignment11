@@ -4,7 +4,7 @@
   --text-color-lighter: #074c50;
   --secondary-color: #BD924F;
   --warn-color: #FDD219;
-  --danger-color: #FA5456;
+  --hover-color: #CEAF7D;
   --white: #FFFFFF;
   --off-white: #F1F2F4;
   --gray: #A1A1A1;
@@ -30,7 +30,6 @@ h1 {
   font-size: 2.5rem;
   text-align: left;
 }
-
 
 a:hover {
   text-decoration: underline;
@@ -87,7 +86,7 @@ main>section.hero {
   text-align: center;
 }
 
-section.hero>button {
+.hero>button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
@@ -95,7 +94,10 @@ section.hero>button {
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.hero button:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-1px);
+}
 main article {
   padding: 8px 96px;
 }
@@ -128,112 +130,6 @@ main p {
   padding: 24px 0;
   color: var(--secondary-color);
   border-top: var(--secondary-color) 6px solid;
-}
-
-:root {
-  --primary-color: #15223A;
-  --text-color: #042d2f;
-  --text-color-lighter: #074c50;
-  --secondary-color: #BD924F;
-  --warn-color: #FDD219;
-  --danger-color: #FA5456;
-  --white: #FFFFFF;
-  --off-white: #F1F2F4;
-  --gray: #A1A1A1;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  font-size: 1.3rem;
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-image: url(images/stone_texture.png);
-}
-.logo {
-  width: 15rem;
-  position: absolute;
-  top: 10px;
-  left: 10%;
-}
-h1 {
-  font-size: 2.5rem;
-}
-
-h1,
-h2 {
-  text-align: center;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.header {
-  background-color: var(--primary-color);
-  padding: 48px 0;
-  border-bottom: var(--secondary-color) 6px solid;
- 
-}
-
-main a {
-  color: var(--danger-color);
-}
-
-main>article,
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.header__link {
-  text-decoration: none;
-  font-family: 'Cinzel';
-  font-size: 1.5rem;
-  color: var(--secondary-color);
-  text-transform: uppercase;
-  float: left;
-  margin-left: 60px;
-}
-
-nav {
-  float: right;
-  margin-right: 100px;
-}
-
-nav>a.logo {
-  margin-right: auto;
-  text-transform: uppercase;
-}
-
-main>section {
-  margin-bottom: 50px;
-  box-shadow: 4px 4px 10px var(--gray);
-  background-color: var(--white);
-}
-
-main>section.hero {
-  height: 800px;
-  background-image: url(images/the-greatest-showman-hugh-jackman-vogue.webp);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-}
-
-section.hero>button {
-  background-color: var(--secondary-color);
-  border: none;
-  padding: 12px 24px;
-  border-radius: 12px;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 main h1, h4{
