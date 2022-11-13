@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img class=logo src="images/The_Greatest_Showman_logo.png" alt="the greatest showman  movie logo">
+            <a class="header__link" href="index.html">Home</a>
+            <a class="header__link" href="about.html">About</a>
+            <a class="header__link" href="videos.html">Videos</a>
+            <a class="header__link" href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <!-- heading text -->
+            <ul class="image-gallery">
+              <li>
+                <img src="/images/bts-01.jpg" alt="camera filming of The Greates Showman" />
+              </li>
+              <li>
+                <img src="/images/bts-02.jpg" alt="actor crew practicing their performance" />
+              </li>
+              <li>
+                <img src="/images/bts-03.jpg" alt="two of the actors exaggerate a growl" />
+              </li>
+              <li>
+                <img src="/images/bts-04.jpg" alt="two of the actors lightly hugging on set for a photo" />
+              </li>
+              <li>
+                <img src="/images/bts-05.jpg" alt="crew sets up a shot for an acrobatics scene. One man directs will the two actors concentrate in the center" />
+              </li>
+              <li>
+                <img src="/images/bts-06.jpg" alt="crew setting up a scene with the actress in the air" />
+              </li>
+              <li>
+                <img src="/images/bts-07.jpg" alt="actress hanging out in one of the acrobatics ring" />
+              </li>
+              <li>
+                <img src="/images/bts-08.jpg" alt="wide 360 degree view of the crew and set of The Greatest Showman" />
+              </li>
+              <li>
+                <img src="/images/bts-09.jpg" alt="one of the main actors posing on a stripped down mechanical bull" />
+              </li>
+              <!-- other items here -->
+            </ul>
+          </div>
+    </main>
+    <footer class="footer">
+        &copy;<span id="year"></span>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear()
+    </script>
+</body>
+
+</html>
