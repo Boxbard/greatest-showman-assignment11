@@ -206,20 +206,28 @@ main p {
 }
 
 .footer {
+  display: flex;
   margin-top: auto;
   background-color: var(--primary-color);
   text-align: left;
   text-transform: uppercase;
   padding: 24px 0;
   color: var(--text-color-lighter);
-  border-top: var(--secondary-color) 6px solid;
-  display: flex;
+  border-top: var(--secondary-color) 6px solid;  
   align-items: center;
   flex-direction: column;
+  font-family: 'Cinzel';
 }
 
-.footer_logo {
+/* .footer_logo {
   width: 15rem;
+} */
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  margin-top: 1em;
+  justify-content: center;  
 }
 
 
