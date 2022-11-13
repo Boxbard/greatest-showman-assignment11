@@ -1,121 +1,135 @@
 :root {
-    --primary-color: #15223A;
-    --text-color: #042d2f;
-    --text-color-lighter: #074c50;
-    --secondary-color: #BD924F;
-    --warn-color: #FDD219;
-    --danger-color: #FA5456;
-    --white: #FFFFFF;
-    --off-white: #F1F2F4;
-    --gray: #A1A1A1;
-  }
+  --primary-color: #15223A;
+  --text-color: #042d2f;
+  --text-color-lighter: #074c50;
+  --secondary-color: #BD924F;
+  --warn-color: #FDD219;
+  --danger-color: #FA5456;
+  --white: #FFFFFF;
+  --off-white: #F1F2F4;
+  --gray: #A1A1A1;
+}
 
-  .logo {
-    width: 15rem;
-    position: absolute;
-    top: 10px;
-    left: 10%;
-  }
-  h1 {
-    font-size: 2.5rem;
-    text-align: left;
-  }
-  
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .header {
-    background-color: var(--primary-color);
-    padding: 48px 0;
-    border-bottom: var(--secondary-color) 6px solid;   
-  }
-  
-  main>article,
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-  
-  .header__link {
-    text-decoration: none;
-    font-family: 'Cinzel';
-    font-size: 1.5rem;
-    color: var(--secondary-color);
-    text-transform: uppercase;
-    float: left;
-    margin-left: 60px;
-  }
-  
-  nav {
-    float: right;
-    margin-right: 100px;
-  }
-  
-  nav>a.logo {
-    margin-right: auto;
-    text-transform: uppercase;
-  }
-  
-  main>section,
-  main>article {
-    margin-bottom: 50px;
-  }
+.logo {
+  width: 15rem;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+}
 
-  body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    font-size: 1.3rem;
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: url(images/stone_texture_blue_color_burn.jpg);
-    background-size: 50%;
-  }
+h1 {
+  font-size: 2.5rem;
+  text-align: left;
+}
 
-  ul {
-    list-style: none;
-  }
+/* Nav bar CSS */
 
-  .container {
-    padding: 40px 12%;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
+.header {
+  background-color: var(--primary-color);
+  padding: 48px 0;
+  border-bottom: var(--secondary-color) 6px solid;
+}
 
-  .image-gallery::after {
-    content: "";
-    flex-grow: 99;
-  }
-  
-  .image-gallery > li {
-    flex-grow: 1 1 auto;
-    height: 300px;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .image-gallery li img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-    border-radius: 5px;
-  }
+main>article,
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-  .footer {
-    margin-top: auto;
-    background-color: var(--primary-color);
-    text-align: center;
-    text-transform: uppercase;
-    padding: 24px 0;
-    color: var(--secondary-color);
-    border-top: var(--secondary-color) 6px solid;
-  }
+.header__link {
+  text-decoration: none;
+  font-family: 'Cinzel';
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  float: left;
+  margin-left: 60px;
+}
+
+nav {
+  float: right;
+  margin-right: 100px;
+}
+
+nav>a.logo {
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+main>section,
+main>article {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(images/stone_texture_blue_color_burn.jpg);
+  background-size: 50%;
+}
+
+/* Image Gallery CSS */
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 40px 12%;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-gallery::after {
+  content: "";
+  flex-grow: 99;
+}
+
+.image-gallery>li {
+  flex-grow: 1 1 auto;
+  height: 300px;
+  cursor: pointer;
+  position: relative;
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+/* Footer settings and icons */
+
+.footer {
+  margin-top: auto;
+  background-color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 24px 0;
+  color: var(--secondary-color);
+  border-top: var(--secondary-color) 6px solid;
+}
+
+.social-media {  
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7em;
+  gap: 20px;
+  font-size: 36px;
+}
