@@ -126,16 +126,10 @@ ul {
   border-top: var(--secondary-color) 6px solid;
 }
 
-/* Attempting to use Fontawesome */
-
-/* .icon::before {
-  display: inline-block;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+.social-media {  
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7em;
+  gap: 20px;
+  font-size: 36px;
 }
-
-.footer::before {
-  font: var(--fa-font-brands);
-  content: "\f099";
-  font-weight: 400;
-} */
