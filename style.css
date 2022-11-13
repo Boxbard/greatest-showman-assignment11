@@ -1,8 +1,9 @@
 :root {
   --primary-color: #15223A;
+  --text-color: #15223A;
+  --text-color-lighter: #BD924F;
   --text-color: #042d2f;
   --secondary-color: #BD924F;
-  --warn-color: #FDD219;
   --white: #FFFFFF;
 }
 
@@ -17,6 +18,7 @@ body {
   background-image: url(images/stone_texture.png);
 }
 
+
 .logo {
   width: 15rem;
   position: absolute;
@@ -25,8 +27,11 @@ body {
 }
 
 
+
 a:hover {
+  color: var(--hover-color);
   text-decoration: underline;
+  transition: color 0.2s;
 }
 
 .header {
@@ -84,18 +89,22 @@ main>section.hero {
   text-align: center;
 }
 
-.hero>button {
+.hero>.button {
   background-color: var(--secondary-color);
   border: none;
-  padding: 12px 24px;
+  padding: 12px 14px;
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1rem;
 }
-.hero button:hover {
+.hero .button:hover {
   background-color: var(--hover-color);
   transform: translateY(-1px);
 }
+
 main article {
   padding: 8px 96px;
 }
@@ -109,6 +118,22 @@ h1 {
 main p {
   line-height: 1.75;
   margin-bottom: 48px;
+}
+
+.link_card {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.link_card_img {
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.link_card_header{
+  padding: 0 10px;
+}
+
   font-family: Lato;
 }
 
@@ -176,12 +201,20 @@ main p {
 .footer {
   margin-top: auto;
   background-color: var(--primary-color);
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   padding: 24px 0;
-  color: var(--secondary-color);
+  color: var(--text-color-lighter);
   border-top: var(--secondary-color) 6px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.footer_logo {
+  width: 15rem;
+}
+
 
 /* media queries */
 
