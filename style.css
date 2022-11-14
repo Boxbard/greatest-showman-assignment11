@@ -166,8 +166,6 @@ h4 {
   padding-top: 50px;
 }
 
-
-
 .one {
   position: relative;
   top: 0;
@@ -243,7 +241,7 @@ main p {
   .right {
     display: inline-block;
     flex-direction: row;
-    padding-left: 150px;
+    
   }
 
   .one,
@@ -299,5 +297,4 @@ main p {
   .one {
     margin-top: -300px;
   }
-
 }
