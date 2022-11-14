@@ -221,7 +221,6 @@ main p {
   justify-content: center;
 }
 
-
 /* media queries */
 
 /* tablet */
@@ -278,7 +277,6 @@ main>section.hero {
   main>section.hero {
     height: 300px;
   }
-
 
   /* side bar */
   .right {
