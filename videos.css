@@ -31,6 +31,8 @@ h1 {
 }
 
 a:hover {
+  color: var(--hover-color);
+  transition: color 0.2s;
   text-decoration: underline;
 }
 
