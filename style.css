@@ -237,18 +237,16 @@ main>section.hero {
   margin-top: 300px;
 }
 
-<<<<<<< HEAD
-  .right {
-    display: inline-block;
-    flex-direction: row;
-    
-  }
-=======
+.right {
+  display: inline-block;
+  flex-direction: row;
+}
+
 /* side bar */
+
 .column {
   width: 100%;
 }
->>>>>>> 20595a87e5f75195127846c6ca7209c408d971a0
 
 .right {
   display: inline-block;
