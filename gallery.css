@@ -114,6 +114,13 @@ ul {
   border-radius: 5px;
 }
 
+/* tablet */
+@media only screen and (min-width: 375px) and (max-width: 945px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .logo {
+    display: none;
+  }
+}
+
 /* Footer settings and icons */
 
 .footer {
